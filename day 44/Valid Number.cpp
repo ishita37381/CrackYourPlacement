@@ -1,7 +1,6 @@
 class Solution {
 public:
     bool isNumber(string s) {
-// On each character match and see if previous state is valid, if yes set current state and continue else return false
         int tracker = 0;
         bool dec_flag = false;
         for(auto c: s) {
